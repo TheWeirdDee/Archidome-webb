@@ -27,7 +27,7 @@ const Home = () => {
      <div>
         <div className=" hero px-4 py-32 min-h-screen flex items-center justify-center">
       <div className="hero-text text-center text-white" data-aos="fade-up">
-        <h1 className="homeherotext ">Where Architecture Meets Innovation</h1>
+        <h1 className="homeherotext text-5xl lg:text-7xl ">Where Architecture Meets Innovation</h1>
         <p className="">We do not just design buildings; we craft experiences. Our team of visionary architects and designers are dedicated to creating spaces that inspire, innovate, and captivate.</p>
         <button className="px-6 py-3 btn bg-white  font-semibold rounded-lg shadow-md   transition duration-300">Explore More</button>
       </div>
