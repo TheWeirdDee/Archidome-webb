@@ -95,9 +95,14 @@
         font-size: 30px;
     }
     .abouthero-text h1{
-        font-size: 40px;
+        font-size: 50px;
         font-weight: 600;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .abouthero-text p{
+        font-size: 14px;
+        /* font-weight: 600; */
+         
     }
     .about{
         display: inline;
