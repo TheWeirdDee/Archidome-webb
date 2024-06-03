@@ -21,7 +21,7 @@ const About = () => {
     <div>
       <div className="Abouthero min-h-screen px-4 py-32 flex items-center justify-center" data-aos="fade-up">
       <div className="text-center text-white p-8 abouthero-text space-y-4">
-  <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold mb-4 aboutherotext">
+  <h1 className="lg:text-7xl font-bold mb-4 aboutherotext">
     A Reflection Of Our Collective Imagination
   </h1>
   <p className="text-base md:text-xl mb-6 sectionAboutP">

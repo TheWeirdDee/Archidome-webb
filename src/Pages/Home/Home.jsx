@@ -27,7 +27,7 @@ const Home = () => {
      <div>
         <div className=" hero px-4 py-32 min-h-screen flex items-center justify-center">
       <div className="hero-text text-center text-white" data-aos="fade-up">
-      <h1 className="homeherotext text-3xl md:text-4xl lg:text-7xl">Where Architecture Meets Innovation</h1>
+      <h1 className="homeherotext md:text-2xl lg:text-7xl">Where Architecture Meets Innovation</h1>
 <p className="text-base md:text-lg lg:text-xl">
   We do not just design buildings; we craft experiences. Our team of visionary architects and designers are dedicated to creating spaces that inspire, innovate, and captivate.
 </p>
