@@ -1,0 +1,129 @@
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.aboutLeft{
+    flex-basis: 40%;
+}
+.aboutRight{
+    flex-basis: 56%;
+    color: white;
+}
+.aboutimg{
+    width: 100%;
+    border-radius: 10px;
+}
+.aboutherotext{
+    color: white;
+}
+.about h3{
+    /* font-weight: 600; */
+    color: white;
+}
+.about h2{
+    /* font-weight: 600; */
+    color: rgb(173, 20, 173);
+    font-size: 35px;
+    margin: 10px 0;
+    max-width: 400px;
+}
+.about p{
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+}
+.Abouthero{
+    background: linear-gradient(rgba(8, 0, 58, 0.692),rgba(63, 2, 63, 0.856)), url('../../assets/Abouthero.png');
+    background-size: cover;
+    background-position: center;
+     
+}
+.abouthero-text{
+    text-align: center;
+    max-width: 800px;
+}
+.abouthero-text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.abouthero-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+.sectionAboutP{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+.sectionAbout{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    gap: 4px;
+    transition: var(--transition);
+    
+}
+ .ht{
+    color: white;
+    margin-bottom: 7px;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 850px) {
+    .homeherotext{
+        color: white;
+        /* font-size: ; */
+    }
+}
+@media screen and (max-width: 650px) {
+    .aboutherotext{
+        color: white;
+        max-width: 400px;
+        margin: auto;
+        font-size: 30px;
+    }
+    .about{
+        display: inline;
+    }
+
+    .aboutheroP{
+        font-size: 16px;
+        margin: 15px auto 30px;
+    }
+    .sectionAbout{
+        display: inline;
+    }
+    .sectionAboutP{
+        margin-bottom: 15px;
+    }
+     .aboutimg{
+        margin-top: 25%;
+        width: 100%;
+     }
+    .aboutt{
+        margin-top: 25px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .AboutUs{
+        padding-left: 5%;
+         padding-right: 5%;
+    }
+    .first{
+        margin-top: 15%;
+    }
+    .line{
+        border-bottom: 2px solid white;
+    }
+}

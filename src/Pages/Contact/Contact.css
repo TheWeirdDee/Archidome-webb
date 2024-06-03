@@ -1,0 +1,8 @@
+.contactBanner{
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(63, 2, 63, 0.774)), url('../../assets/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bgbg{
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(63, 2, 63, 0.774)),  
+}

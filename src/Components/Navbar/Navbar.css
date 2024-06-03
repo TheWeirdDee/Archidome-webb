@@ -1,0 +1,65 @@
+.dome{
+  color: rgb(173, 20, 173);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+}
+.Archi{
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.navLink{
+  color: white;
+  font-size: 17px;
+  transition: var(--transition);
+}
+.navLink:hover{
+  color: rgb(150, 3, 150);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1020px){
+nav ul{
+    
+    background: linear-gradient(rgba(8, 0, 58, 0.973),rgba(63, 2, 63, 0.856));
+    transition: var(--transition);
+}
+.nav__toggle-btn{
+    
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background: none;
+    transition: var(--transition);
+}
+}
+
+.navLink{
+  color: white;
+  font-size: 17px;
+  transition: var(--transition);
+}
+.navBtn{
+    background-color: rgb(63, 2, 63);
+    color: white;
+    padding: 14px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+  }
+  .navBtn:hover{
+    background-color: white;
+    color: rgb(63, 2, 63);
+    font-weight: 600;
+    transition: var(--transition);
+  }
+  .darknav{
+    background: rgba(0, 0, 0, 0.712);
+  }

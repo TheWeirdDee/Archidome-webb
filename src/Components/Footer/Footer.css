@@ -1,0 +1,35 @@
+footer {
+    color: white;
+    margin-top: 7rem;
+    padding-top: 7rem;
+    font-size: 0.9rem;
+}
+.footerContainer{
+    display: grid;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
+    gap: 6rem;
+}
+.footerContainer article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7rem;
+}
+.footerContainer article p {
+    margin-top: 0.5rem;
+}
+.footerContainer article h4 {
+    margin-bottom: 0.6rem;
+}
+.footerSocials {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.footerSocials a{
+    padding: 0.7rem;
+    border: 1px solid transparent;
+    border-radius: 0.6rem;
+    transition: var(--transition);
+}
