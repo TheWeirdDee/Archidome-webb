@@ -21,8 +21,13 @@ const About = () => {
     <div>
       <div className="Abouthero min-h-screen px-4 py-32 flex items-center justify-center" data-aos="fade-up">
         <div className="text-center text-white p-8 abouthero-text">
-          <h1 className="text-5xl md:4xl lg:text-7xl text-green-400 font-bold mb-4 aboutherotext">A Reflection Of Our Collective Imagination</h1>
-          <p className="text-xl mb-6 sectionAboutP">With a legacy built on creativity, craftsmanship, and collaboration, we are dedicated to shaping spaces that transcend the ordinary and inspire the extraordinary.</p>
+        <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold mb-4 aboutherotext">
+  A Reflection Of Our Collective Imagination
+</h1>
+<p className="text-base md:text-xl mb-6 sectionAboutP">
+  With a legacy built on creativity, craftsmanship, and collaboration, we are dedicated to shaping spaces that transcend the ordinary and inspire the extraordinary.
+</p>
+
           <button className="btn">
             Explore More <img src="" alt=""/>
           </button>
